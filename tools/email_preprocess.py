@@ -1,9 +1,9 @@
 #!/usr/bin/python
 
 try:
-    import pickle
-except ImportError:
     import cPickle as pickle
+except ImportError:
+    import pickle
 import numpy
 
 from sklearn import cross_validation
