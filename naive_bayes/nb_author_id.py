@@ -11,8 +11,9 @@
 """
     
 import sys
-from time import time
 sys.path.append("../tools/")
+
+from time import time
 from email_preprocess import preprocess
 
 
@@ -30,16 +31,24 @@ features_train, features_test, labels_train, labels_test = preprocess()
 from sklearn.naive_bayes import GaussianNB
 clf = GaussianNB()
 
+# start timing
+t0 = time()
+
 # fit or train
 clf.fit(features_train, labels_train)
 
+print("training time:", round(time()-t0, 3), "s")
+
+# start timing
+t0 = time()
 # prediction
 pred = clf.predict(features_test)
 
+print("prediction time:", round(time()-t0, 3), "s")
+
 # accuracy
 accuracy = clf.score(features_train, labels_train)
-print (accuracy)
-
+print(accuracy)
 
 #########################################################
 
