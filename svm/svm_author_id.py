@@ -26,15 +26,15 @@ features_train, features_test, labels_train, labels_test = preprocess()
 ### your code goes here ###
 
 from sklearn import svm
-# clf = svm.LinearSVC()
-clf = svm.SVC(kernel='linear')
+# clf = svm.SVC(kernel='linear')
+clf = svm.SVC(kernel='rbf', C=10000)
 
 # start timing
 t0 = time()
 
 # Slice data down to 1%
-features_train = features_train[:int(len(features_train)/100)]
-labels_train = labels_train[:int(len(labels_train)/100)]
+# features_train = features_train[:int(len(features_train)/100)]
+# labels_train = labels_train[:int(len(labels_train)/100)]
 
 clf.fit(features_train, labels_train)
 
@@ -44,18 +44,23 @@ print("training/fitting time:", round(time()-t0, 3), "s")
 t0 = time()
 # prediction
 pred = clf.predict(features_test)
+print("Prediction: ", pred[10])
+print("Prediction: ", pred[26])
+print("Prediction: ", pred[50])
 
 print("prediction time:", round(time()-t0, 3), "s")
 
+
+print("Label Chris (1): ", list(pred).count(1))
+
 # accuracy
-accuracy = clf.score(features_train, labels_train)
-print(accuracy)
+# accuracy = clf.score(features_train, labels_train)
+# print(accuracy)
 
 # Preferred accuracy API.. Uses pred
 from sklearn.metrics import accuracy_score
 acc = accuracy_score(pred, labels_test)
 print("Accuracy_score: ", acc)
-
 
 
 # SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
