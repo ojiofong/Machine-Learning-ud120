@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="799e0192-ce8a-4987-aea4-c982ac331e6c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/choose_your_own/class_vis.py" afterPath="$PROJECT_DIR$/choose_your_own/class_vis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/choose_your_own/your_algorithm.py" afterPath="$PROJECT_DIR$/choose_your_own/your_algorithm.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datasets_questions/explore_enron_data.py" afterPath="$PROJECT_DIR$/datasets_questions/explore_enron_data.py" />
     </list>
     <ignored path="ud120-projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,14 +23,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="your_algorithm.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="your_algorithm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/choose_your_own/your_algorithm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+            <state relative-caret-position="387">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
               <folding>
                 <element signature="e#19#50#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="explore_enron_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/datasets_questions/explore_enron_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="50" column="70" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feature_format.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/feature_format.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-780">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,6 +70,7 @@
         <option value="$PROJECT_DIR$/tools/email_preprocess.py" />
         <option value="$PROJECT_DIR$/choose_your_own/class_vis.py" />
         <option value="$PROJECT_DIR$/choose_your_own/your_algorithm.py" />
+        <option value="$PROJECT_DIR$/datasets_questions/explore_enron_data.py" />
       </list>
     </option>
   </component>
@@ -115,7 +135,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="choose_your_own" />
+              <option name="myItemId" value="tools" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -128,7 +148,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python.your_algorithm">
+  <component name="RunManager" selected="Python.explore_enron_data">
     <configuration default="false" name="nb_author_id" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,23 +162,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ud120-projects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/naive_bayes/nb_author_id.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="email_preprocess" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ud120-projects" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/email_preprocess.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -210,6 +213,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ud120-projects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/choose_your_own/your_algorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="explore_enron_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/datasets_questions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ud120-projects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datasets_questions/explore_enron_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -350,18 +370,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.nb_author_id" />
-      <item index="1" class="java.lang.String" itemvalue="Python.email_preprocess" />
-      <item index="2" class="java.lang.String" itemvalue="Python.svm_author_id" />
-      <item index="3" class="java.lang.String" itemvalue="Python.dt_author_id" />
-      <item index="4" class="java.lang.String" itemvalue="Python.your_algorithm" />
+      <item index="1" class="java.lang.String" itemvalue="Python.svm_author_id" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dt_author_id" />
+      <item index="3" class="java.lang.String" itemvalue="Python.your_algorithm" />
+      <item index="4" class="java.lang.String" itemvalue="Python.explore_enron_data" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.your_algorithm" />
-        <item index="1" class="java.lang.String" itemvalue="Python.dt_author_id" />
-        <item index="2" class="java.lang.String" itemvalue="Python.svm_author_id" />
-        <item index="3" class="java.lang.String" itemvalue="Python.nb_author_id" />
-        <item index="4" class="java.lang.String" itemvalue="Python.email_preprocess" />
+        <item index="0" class="java.lang.String" itemvalue="Python.explore_enron_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.your_algorithm" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dt_author_id" />
+        <item index="3" class="java.lang.String" itemvalue="Python.svm_author_id" />
+        <item index="4" class="java.lang.String" itemvalue="Python.nb_author_id" />
       </list>
     </recent_temporary>
   </component>
@@ -506,11 +526,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/choose_your_own/your_algorithm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+        <state relative-caret-position="387">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding>
             <element signature="e#19#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/feature_format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets_questions/explore_enron_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="50" column="70" selection-start-line="50" selection-start-column="70" selection-end-line="50" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
