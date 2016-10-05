@@ -32,7 +32,7 @@ countEmail = 0;
 countTotalPaymentNaN = 0;
 
 for key,value in enron_data.items():
-    # print(key, 'corresponds to', value)
+    print(key, 'corresponds to', value)
     if enron_data[key]["poi"]:
             countPOI += 1
 
